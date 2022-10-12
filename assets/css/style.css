@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat+Alternates:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,8 +6,37 @@
 }
 
 #kosovo-cover {
-    min-height: 100vh;
+    height: 800px;
     width: 100%;
-    background:url('../images/capital-city.jpg');
+    background:url('../images/nature.jpg') no-repeat center center;
     object-fit: fill;
+}
+#logo {
+    font-family: Montserrat Alternates, sans-serif;
+    color:yellow;
+    size: 300%;
+    width: 400px; 
+    margin: 0 auto; 
+   
+}
+#menu{
+    text-align: center;
+}
+#menu li {
+    font-family: Montserrat Alternates, sans-serif;
+    list-style-type: none;
+    display: inline-block;
+    vertical-align: top;
+    letter-spacing: 4px;
+    
+
+}
+
+#menu a {
+    text-decoration: none;
+    color: yellow;
+    padding: 20px;
+    border-radius: 5px 5px 5px 5px;
+    overflow: hidden;
+    box-shadow: -5px 5px 14px black;
 }
