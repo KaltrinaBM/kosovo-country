@@ -6,16 +6,20 @@
 }
 
 #kosovo-cover {
-    height: 600px;
+    height: 900px;
     width: 100%;
     background:url('../images/nature.jpg') no-repeat center center;
     object-fit: contain;
+    overflow: hidden;
+    position: relative;
 }
+
+
 #first-logo {
     font-family: Montserrat Alternates, sans-serif;
     letter-spacing: 8px;
     font-size: 1000%;
-    color:rgba(255, 255, 255, 0.7);
+    color:rgba(255, 255, 255, 0.6);
     margin: 0 auto; 
     position: absolute;
     top: 60%;
@@ -23,20 +27,22 @@
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
+    text-shadow: -5px 5px 10px white;
 }
 #second-logo {
     font-family: Montserrat Alternates, sans-serif;
     letter-spacing: 8px;
     font-size: 300%;
-    color:rgba(255, 255, 255, 0.7);
+    color:white;
     top: 50%;
     position:absolute;
     right: 0;
     margin: 20px;
     
+    
 }
 
-/* creates the level of zoom for hero image */
+/* creates the level of zoom for the cover */
 @keyframes hero-zoom {
     from{
         transform: scale(1);
@@ -74,6 +80,35 @@
     font-weight: bold;
 }
 
+#banner {
+    width: 100%;
+    height: 100px;
+    overflow: hidden;
+    top: 110%;
+    position: absolute;
+}
+#banner div{
+    background-color:rgba(26, 54, 4, 0.7);
+    color: white;
+    width: 25%;
+    height: 300px;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px 0 0 10px;
+    text-align: center;
+
+}
+#banner h2 {
+    font-family: Montserrat Alternates, sans-serif;
+    font-size: 200%;
+}
+#banner h3 {
+    font-family: Montserrat Alternates, sans-serif;
+    font-size: 80%;
+    text-transform: uppercase;
+    
+}
+
 #about {
     margin: 30px;
    
@@ -89,4 +124,27 @@
     font-family: Lato, sans-serif;
     letter-spacing: 1px;
     font-size: 100%;
+}
+#flag-left {
+    width: 40%;
+    padding: 20px;
+    float: left;
+}
+#anthem-right {
+    width: 40%;
+    float: right;
+    padding: 20px;
+}
+
+hr {
+    width: 100%;
+    margin: 20px 0;
+}
+.flag-anthem {
+    font-family: Lato, sans-serif;
+    padding: 30px;
+}
+.flag-anthem h3{
+    font-size: 100%;
+
 }
