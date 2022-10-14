@@ -9,7 +9,6 @@
 body {
     font-family: Lato, sans-serif;
     color: #404040;
-    font-weight: 300px;
     font-size: 16px;
 }
 
@@ -24,7 +23,7 @@ body {
 /* logo style */
 
 #first-logo {
-    font-family: Montserrat Alternates, sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     letter-spacing: 8px;
     font-size: 1000%;
     color: rgba(255, 255, 255, 0.6);
@@ -38,7 +37,7 @@ body {
 }
 
 #second-logo {
-    font-family: Montserrat Alternates, sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     letter-spacing: 8px;
     font-size: 300%;
     color: #fff;
@@ -71,7 +70,7 @@ body {
 }
 
 #menu li {
-    font-family: Montserrat Alternates, sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     list-style-type: none;
     display: inline-block;
     letter-spacing: 4px;
@@ -118,12 +117,12 @@ body {
 }
 
 #banner h2 {
-    font-family: Montserrat Alternates, sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-size: 200%;
 }
 
 #banner h3 {
-    font-family: Montserrat Alternates, sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     font-size: 80%;
     text-transform: uppercase;
 }
@@ -132,7 +131,7 @@ body {
 
 #about h2 {
     padding: 30px;
-    font-family: Montserrat Alternates, sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     text-align: center;
     font-size: 200%;
 }
@@ -145,7 +144,7 @@ body {
     line-height: 30px;
 }
 
-hr {
+br {
     width: 100%;
     margin: 5px 0;
 }
@@ -183,12 +182,14 @@ hr {
 footer {
     clear: both;
     padding-top: 30px;
+
 }
 
 .social-networks {
     text-align: center;
     background-color: #2a280a;
     width: 100%;
+
 }
 
 .social-networks li {
@@ -202,14 +203,11 @@ footer {
     color: #fff;
 }
 
-span {
-    color: #fff;
-}
-
 /* history */
 #battle {
     width: 100%;
     text-align: center;
+    overflow: hidden;
 }
 
 #kosovo-battle {
@@ -245,9 +243,15 @@ span {
 }
 
 .main-headings {
-    font-family: Montserrat Alternates, sans-serif;
+    font-family: "Montserrat Alternates", sans-serif;
     text-transform: capitalize;
     padding-bottom: 20px;
+}
+
+#location-map h2 {
+    text-align: center;
+    padding-top: 20px;
+    font-family: "Montserrat Alternates", sans-serif;
 }
 
 /* contact us form */
@@ -323,8 +327,8 @@ span {
         margin: 0 auto;
     }
 
-    hr {
-        display: 5px;
+    br {
+        line-height: 10px;
     }
 
     .social-networks {
@@ -374,8 +378,8 @@ span {
         padding: 0;
     }
 
-    hr {
-        display: 5px;
+    br {
+        line-height: 10px;
     }
 
     .social-networks {
