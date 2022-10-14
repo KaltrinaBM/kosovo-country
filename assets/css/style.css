@@ -6,13 +6,13 @@
 }
 body {
     font-family: Lato, sans-serif;
-    color: #272727;
+    color: #404040;
     font-weight: 300px;
     
 }
 
 #kosovo-cover {
-    height: 900px;
+    height: 800px;
     width: 100%;
     background:url('../images/nature.jpg') no-repeat center center;
    
@@ -39,7 +39,7 @@ body {
     font-family: Montserrat Alternates, sans-serif;
     letter-spacing: 8px;
     font-size: 300%;
-    color:white;
+    color:#fff;
     top: 50%;
     position:absolute;
     right: 10px;
@@ -62,7 +62,7 @@ body {
 }
 #menu {
     width: 100%;
-    background-color: rgba(25,25,25,.7)!important;
+    background-color: rgba(89, 79, 2, 0.7)!important;
     height: 50px;
     padding-top: 30px;
     
@@ -79,19 +79,19 @@ body {
 
 #menu a {
     text-decoration: none;
-    color: white;
+    color: #fff;
     padding: 20px;
     overflow: hidden;
     font-weight: bold;
 }
 #menu a:hover {
-    color: yellow;
-    border-bottom: 1px solid yellow;
+    color: #2a280a;
+    border-bottom: 1px solid #2a280a;
     
     
 }
 .active {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #2a280a;
 }
 
 #banner {
@@ -99,11 +99,11 @@ body {
     height: 100px;
     overflow: hidden;
     top: 115%;
-    position: absolute;
+
 }
 #banner div{
-    background-color: rgba(25,25,25,.7);
-    color: white;
+    background-color: #2a280a;
+    color: #fff;
     width: 25%;
     height: 300px;
     float: left;
@@ -141,13 +141,13 @@ body {
 
 hr {
     width: 100%;
-    margin: 20px 0;
+    margin: 5px 0;
 }
 
 .flag {
     height: 300px;
     width: 100%;
-    padding: 30px;
+    
 }
 #flag-text {
     height: 300px;
@@ -188,7 +188,7 @@ footer{
 
 .social-networks {
     text-align: center;
-    background-color: rgba(25,25,25,.7);
+    background-color: #2a280a;
     width: 100%;
 }
 
@@ -200,19 +200,23 @@ footer{
     font-size: 160%;
     margin: 1%;
     padding: 5%;
-    color: #ffffff;
+    color: #fff;
+}
+
+span {
+    color: #fff;
 }
 #battle {
     width: 100%;
-    position: relative;
+ 
     text-align:center;
  
-    height: auto;
   
 }
 #kosovo-battle {
+    clear: both;
     width: 40%;
-    height: 30x;
+   
     float: none;
     margin: 30px;
 
@@ -251,23 +255,31 @@ footer{
     background-size: cover;
     background-position: center;
     height: 900px;
+    padding-left: 30px;
 
+}
 
+.form-section i {
+    padding-left: 10px;
 }
 .contact-us{
     float: left;
     line-height: 30px;
 
     color:#fff;
-    background-color:rgba(60, 60, 60, 0.6);
+    background-color:rgba(89, 79, 2, 0.7);
     margin: 30px 0;
     padding:30px;
     height: 400px;
     width: 500px;
+    word-spacing: 2px;
+    font-weight: bold;
 
 }
 .contact-us h2 {
-    color:#fafafa;
+    color:#fff;
+   
+    
    
 }
 #message {
@@ -282,10 +294,17 @@ footer{
     height: 300px;
     padding-top: 30px;
 
+}
+.join-button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #2a280a;
+    color:#fff;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
     
-    
 }
+
 
 /* Media queries */
 /* For larger to medium screen size 1200px wide and down */
@@ -307,7 +326,7 @@ footer{
     }
    
     hr {
-        display: none;
+        display: 5px;
     }
     .social-networks {
         clear: both;
@@ -315,6 +334,13 @@ footer{
         height: auto;
         margin: 0 auto;
         color: rgba(255, 255, 255, 0.6)
+    }
+    .form-section {
+        width: auto;
+    }
+    #menu a:hover {
+        color: #2a280a;
+        border-bottom: 1px solid #2a280a;
     }
 }
 
@@ -347,13 +373,9 @@ footer{
         
     }
     
-   
-
-
-   
 
     hr {
-        display: none;
+        display: 5px;
     }
     .social-networks {
         clear: both;
