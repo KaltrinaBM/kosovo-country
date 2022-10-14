@@ -10,6 +10,7 @@ body {
     font-family: Lato, sans-serif;
     color: #404040;
     font-weight: 300px;
+    font-size: 16px;
 }
 
 #kosovo-cover {
@@ -221,15 +222,20 @@ span {
 #battle h3 {
     margin: 0 30px 30px 30px;
     line-height: 30px;
-    float: right;
 }
 
 #recent-history {
     margin: 30px;
 }
 
+.standard-text {
+    font-size: 16px;
+    line-height: 30px;
+
+}
+
 #newborn-images {
-    padding: 20px;
+    padding: 30px;
 }
 
 #newborn-images img {
