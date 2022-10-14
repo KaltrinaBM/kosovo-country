@@ -1,8 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat+Alternates:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Montserrat+Alternates:wght@700&display=swap');
 *{
     margin: 0;
     padding: 0;
     border:none
+}
+body {
+    font-family: Lato, sans-serif;
+    color: #272727;
+    font-weight: 300px;
+    
 }
 
 #kosovo-cover {
@@ -175,7 +181,10 @@ hr {
 }
 /* footer */
 
-
+footer{
+    clear: both;
+    padding-top: 30px;
+}
 
 .social-networks {
     text-align: center;
@@ -192,6 +201,90 @@ hr {
     margin: 1%;
     padding: 5%;
     color: #ffffff;
+}
+#battle {
+    width: 100%;
+    position: relative;
+    text-align:center;
+ 
+    height: auto;
+  
+}
+#kosovo-battle {
+    width: 40%;
+    height: 30x;
+    float: none;
+    margin: 30px;
+
+   
+}
+#battle h3 {
+    
+    margin: 0 30px 30px 30px;
+    line-height: 30px;
+    float: right;
+
+}
+
+#recent-history {
+    margin: 30px;
+}
+#newborn-images {
+    padding: 20px;
+    
+}
+#newborn-images img {
+    width: 100%;
+    margin-top: 30px;
+    gap: 10px;
+    
+}
+
+.subtitles {
+    font-family: Montserrat Alternates, sans-serif;
+    text-transform: capitalize;
+    padding-bottom: 20px;
+}
+.form-section {
+    clear: both;
+    background: url('../images/contact-us.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+
+
+}
+.contact-us{
+    float: left;
+    line-height: 30px;
+
+    color:#fff;
+    background-color:rgba(60, 60, 60, 0.6);
+    margin: 30px 0;
+    padding:30px;
+    height: 400px;
+    width: 500px;
+
+}
+.contact-us h2 {
+    color:#fafafa;
+   
+}
+#message {
+    clear: both;
+    padding: 20px;
+    float: left;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+#location-map iframe {
+    width: 100%;
+    height: 300px;
+    padding-top: 30px;
+
+
+    
+    
 }
 
 /* Media queries */
@@ -213,10 +306,6 @@ hr {
         margin: 0 auto;
     }
    
-
-
-   
-
     hr {
         display: none;
     }
@@ -225,6 +314,7 @@ hr {
         width: 100%;
         height: auto;
         margin: 0 auto;
+        color: rgba(255, 255, 255, 0.6)
     }
 }
 
@@ -278,6 +368,7 @@ hr {
        
     }
       
-   
 }
+
+
 
