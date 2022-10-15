@@ -65,6 +65,11 @@ I confirm that contact us form works, and require the applicable input and submi
 
  - CSS
     - No errors were found when passing through the official [(Jigsaw) validator](http://jigsaw.w3.org/css-validator/validator$link).
+ - Accessibility
+    - I confirm that colors and fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
+
+![Lighthouse results](/assets/images/lighthouse.PNG)
+
 
 ## Bugs
 There are no bugs and the site works as intended.
