@@ -2,6 +2,9 @@
 
 The History of Kosovo is a website that provides information about a small country located in the Balkans region of Europe, which is Kosovo. This website targets people inside and outside of the country and promotes turism. The website will be useful for people that wants to visit Kosovo and wants to learn more about this country.
 
+![Responsive](/assets/images/responsive.PNG)
+
+
 ## Features
 
 The website has a simple navigation bar, that helps user navigate to other pages.
