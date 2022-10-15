@@ -68,7 +68,7 @@ I confirm that contact us form works, and require the applicable input and submi
  - Accessibility
     - I confirm that colors and fonts chosen are easy to read and accessible by running it through Lighthouse in Devtools
 
-![Lighthouse results](/assets/images/lighthouse.PNG)
+![Lighthouse](/assets/images/lighthouse.PNG)
 
 
 ## Bugs
