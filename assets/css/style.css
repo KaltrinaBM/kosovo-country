@@ -321,6 +321,14 @@ footer {
         font-size: 500%;
     }
 
+    #banner h2 {
+        font-size: 100%;
+    }
+
+    #banner h3 {
+        font-size: 70%;
+    }
+
     .flag {
         width: 100%;
         height: auto;
@@ -364,7 +372,21 @@ footer {
     }
 
     #first-logo {
-        font-size: 500%;
+        font-size: 250%;
+        float: left;
+        left: auto;
+        margin: 40px;
+    }
+    #second-logo {
+        font-size: 200%;
+    }
+
+    #banner h2 {
+        font-size: 100%;
+    }
+
+    #banner h3 {
+        font-size: 70%;
     }
 
     .flag {
@@ -392,5 +414,16 @@ footer {
     #menu {
         clear: left;
         float: left;
+    }
+
+
+    .contact-us {
+        width: 300px;
+        height: auto;
+    }
+
+    #message {
+        height: auto;
+        width: 250px;
     }
 }
