@@ -29,8 +29,8 @@ body {
     color: rgba(255, 255, 255, 0.6);
     margin: 0 auto;
     position: absolute;
-    top: 60%;
-    left: 50%;
+    top: 65%;
+    left: 40%;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
