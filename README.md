@@ -4,7 +4,7 @@ The History of Kosovo is a website that provides information about a small count
 
 ## Features
 
-The website has a simple navigation bar, that helps user nvigate to other pages.
+The website has a simple navigation bar, that helps user navigate to other pages.
 
 ### Existing Features
 
@@ -19,30 +19,31 @@ The website has a simple navigation bar, that helps user nvigate to other pages.
     - The landing includes a photography with the overlay Logo to allow the user to see that they are on the main home page.
     - This section introduces the user to the website with an eye catching animation to grab their attention
 
-  ![Cover](/assets/images/cover.PNG)
+![Cover](/assets/images/cover.PNG)
 
   - About Section
     - The About section will allow the user to see to find general information about Kosovo.
     - This user will see the flag of the country.
 
-    ![About](/assets/images/about.PNG)
 
-    - The Footer
-      - The footer section includes links to the relevant social media sites for History of Kosovo website. The links will open to a new tab to allow easy navigation for the user.
-      - The footer is valuable to the user as it encourages them to keep connected via social media.
+![About](/assets/images/about.PNG)
 
-      ![Footer](/assets/images/footer.PNG)
+  - The Footer
+    - The footer section includes links to the relevant social media sites for History of Kosovo website. The links will open to a new tab to allow easy navigation for the user.
+    - The footer is valuable to the user as it encourages them to keep connected via social media.
 
-    - History
-       - The History will provide the user with more information and supporting images.
-       - This section is valuable to the user as it has information for the Monument of the Declaration of Independence of Kosova, which is beeing repainted differently every year, continuously giving it a new meaning.
+![Footer](/assets/images/footer.PNG)
 
-       ![History](/assets/images/history.PNG)
+  - History
+    - The History will provide the user with more information and supporting images.
+    - This section is valuable to the user as it has information for the Monument of the Declaration of Independence of Kosova, which is beeing repainted differently every year, continuously giving it a new meaning.
 
-    - The Contact Us Page
-      - This page will allow the user to contact if they need more information, or have any feedback or suggestion. This section has the map where the country is located.
+![History](/assets/images/history.PNG)
 
-    ![Contact Us](/assets/images/contact.PNG)
+  - The Contact Us Page
+    - This page will allow the user to contact if they need more information, or have any feedback or suggestion. This section has the map where the country is located.
+
+![Contact Us](/assets/images/contact.PNG)
 
 In the future, in this website, will be implemented other pages, to include different sections of the Kosovo's history.
 
@@ -71,9 +72,12 @@ There are no bugs and the site works as intended.
 
 ## Deployment
 
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+In the GitHub repository, navigate to the Settings tab
+From the source section drop-down menu, select the Master Branch
+Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-
-The live link can be found here - 
+The live link can be found here - [History of Kosovo](https://kaltrinabm.github.io/kosovo-country/)
 
 ## Credits
 
